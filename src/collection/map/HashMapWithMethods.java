@@ -25,7 +25,7 @@ public class HashMapWithMethods {
     public static void updateGrade(HashMap<String, Integer> map, String name, int newGrade) {
         if (map.containsKey(name) ) {
             map.put(name, newGrade); // Overwrites the old value
-            System.out.println("System -> Updated " + name + "'s grade to " + newGrade);
+            System.out.println("System -> Updated on " + name + "'s grade to " + newGrade);
         } else {
             System.out.println("System -> Cannot update. " + name + " does not exist.");
         }
